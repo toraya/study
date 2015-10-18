@@ -14,6 +14,8 @@
 		24B870841BC2414C001B253F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24B870831BC2414C001B253F /* Images.xcassets */; };
 		24B870871BC2414C001B253F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 24B870851BC2414C001B253F /* LaunchScreen.xib */; };
 		24B870931BC2414C001B253F /* ResSampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 24B870921BC2414C001B253F /* ResSampleTests.m */; };
+		24B8709D1BC36C29001B253F /* vlcsnap-2015-05-31-00h33m14s99.png in Resources */ = {isa = PBXBuildFile; fileRef = 24B8709C1BC36C29001B253F /* vlcsnap-2015-05-31-00h33m14s99.png */; };
+		24B870E31BCB8613001B253F /* ReqHTTP.m in Sources */ = {isa = PBXBuildFile; fileRef = 24B870E21BCB8613001B253F /* ReqHTTP.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,9 @@
 		24B8708C1BC2414C001B253F /* ResSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ResSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		24B870911BC2414C001B253F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		24B870921BC2414C001B253F /* ResSampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ResSampleTests.m; sourceTree = "<group>"; };
+		24B8709C1BC36C29001B253F /* vlcsnap-2015-05-31-00h33m14s99.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "vlcsnap-2015-05-31-00h33m14s99.png"; path = "ResSample.xcodeproj/../../vlcsnap-2015-05-31-00h33m14s99.png"; sourceTree = "<group>"; };
+		24B870E11BCB8613001B253F /* ReqHTTP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReqHTTP.h; sourceTree = "<group>"; };
+		24B870E21BCB8613001B253F /* ReqHTTP.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReqHTTP.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +71,7 @@
 				24B870751BC2414C001B253F /* ResSample */,
 				24B8708F1BC2414C001B253F /* ResSampleTests */,
 				24B870741BC2414C001B253F /* Products */,
+				24B8709C1BC36C29001B253F /* vlcsnap-2015-05-31-00h33m14s99.png */,
 			);
 			sourceTree = "<group>";
 		};
@@ -85,6 +91,8 @@
 				24B8707B1BC2414C001B253F /* AppDelegate.m */,
 				24B8707D1BC2414C001B253F /* ViewController.h */,
 				24B8707E1BC2414C001B253F /* ViewController.m */,
+				24B870E11BCB8613001B253F /* ReqHTTP.h */,
+				24B870E21BCB8613001B253F /* ReqHTTP.m */,
 				24B870801BC2414C001B253F /* Main.storyboard */,
 				24B870831BC2414C001B253F /* Images.xcassets */,
 				24B870851BC2414C001B253F /* LaunchScreen.xib */,
@@ -201,6 +209,7 @@
 			files = (
 				24B870821BC2414C001B253F /* Main.storyboard in Resources */,
 				24B870871BC2414C001B253F /* LaunchScreen.xib in Resources */,
+				24B8709D1BC36C29001B253F /* vlcsnap-2015-05-31-00h33m14s99.png in Resources */,
 				24B870841BC2414C001B253F /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -219,6 +228,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				24B870E31BCB8613001B253F /* ReqHTTP.m in Sources */,
 				24B8707F1BC2414C001B253F /* ViewController.m in Sources */,
 				24B8707C1BC2414C001B253F /* AppDelegate.m in Sources */,
 				24B870791BC2414C001B253F /* main.m in Sources */,

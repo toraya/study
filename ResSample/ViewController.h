@@ -7,8 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ReqHTTP.h"
 
 @interface ViewController : UIViewController
+
+@property (nonatomic, strong) NSString *dateStr;
+@property (nonatomic, strong) NSURL *requstUrl;
+@property (nonatomic, strong) NSURLRequest *request;
+@property (nonatomic, strong) NSData *imgDate;
 
 
 @end
